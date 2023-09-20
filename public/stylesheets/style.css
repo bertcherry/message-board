@@ -34,3 +34,8 @@ a {
 .messageHeading > h2 {
   margin: 0;
 }
+
+.areaWrapper {
+  display: flex;
+  flex-direction: column;
+}
