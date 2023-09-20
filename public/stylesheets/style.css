@@ -1,8 +1,36 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  max-width: 640px;
+  margin: 0 auto;
 }
 
 a {
   color: #00B7FF;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: scroll;
+}
+
+.message {
+  border: solid 2px black;
+  border-radius: 3px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.messageHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.messageHeading > h2 {
+  margin: 0;
 }
